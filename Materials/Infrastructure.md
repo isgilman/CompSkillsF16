@@ -15,7 +15,7 @@ latex footer:	mmd-article-footer
 # Needful Things for Making the Course Work #
 
 ## Software ##
-* Python 3.4
+* Python 3
 * Multimarkdown
 * Jupyter
 * iPython
