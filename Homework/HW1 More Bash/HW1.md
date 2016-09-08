@@ -9,8 +9,8 @@ In this assignment gives you will learn to write a simple bash script
 1. Read about markdown in git: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 2. Work through https://docs.python.org/3.5/tutorial/interpreter.html, chapters 1–3 
 
-## To do before Tuesday, 6 September (class 5)
-
+## To do ASAP, no later than Tuesday, 13 September (class 5)
+But note that other homework are coming!
 ### Readings
 
 1. Work through book, chapter 3, except pages 58—66 and 72—74
