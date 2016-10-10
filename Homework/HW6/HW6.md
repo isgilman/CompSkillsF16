@@ -1,7 +1,7 @@
 # Homework 6: Human microbiome analysis
-We will begin analysis of two actual datasets from a human vaginal microbiome study. 
+We will begin analysis of an actual dataset from a human vaginal microbiome study. 
 
-In this assignment we will read in two actual empirical datasets, combine the data, and do some simple data processing. 
+In this assignment we will read in an actual empirical datasets,  and do some simple data processing. 
 
 This dataset is a human microbiome dataset. Vaginal swabs from 25 women were taken daily for 10 weeks by the Forney (UI) and Ravel (UMD) labs. Each sample was analyzed for microbial content using 16S amplicon analysis and high performance sequencing. The numbers in columns below bacterial species names are the number of sequences in that row that could be ascribed to that species, using Bayesian analysis. I have pruned the full dataset to only include a few high-abundance species, and only the first four days of the first and last week of sampling.
 

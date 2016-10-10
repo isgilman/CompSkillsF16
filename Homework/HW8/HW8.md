@@ -2,7 +2,9 @@
 
 **NOTE: This is not the actual assignment yet!**
 
-In this assignment gives you will XXX.
+In this assignment gives you will 
+
+* plot data from HW7
 
 ### Readings
 1. Read XXX
