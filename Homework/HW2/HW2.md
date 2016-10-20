@@ -30,7 +30,7 @@ Remember, you can look at the markdown code for these homework assignments as ex
 ## Things to do by midnight, Thursday, 9/15, or sooner
 Create a file named *count_nucleotides.py* that does the following
 
-1. Counts the number of A's, C's, G's, and T's in the following two DNA sequences (note that the first has 53 nucleotides and the second 54)
+1. Counts the number of A's, C's, G's, and T's in the following two DNA sequences (note that the first has 52 nucleotides and the second 53)
 
 	a.  CGCAGCTAACGCATTAAGCACTCCGCCTGGGGAGTACGACCGCAAGGTTGAA
 
