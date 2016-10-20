@@ -43,3 +43,20 @@ for nextLine in inLines:
 allDataFrame = DataFrame( allData, 
    columns=['Tech', 'fwdPrimer', 'revPrimer', 'Gene', 'Country', 'gcContent', ] 
    )
+
+allDataFrame['GeneFamily'] = [x[:x.find('_')] for x in allDataFrame['Gene'] ]
+
+allDataFrame['highGC'] = allDataFrame.gcContent > 0.4
+allDataFrame['lowGC']  = allDataFrame.gcContent < 0.4
+
+headers=['gcContent','highGC', 'lowGC', 'Gene', 'Country', 'fwdPrimer', 'revPrimer', 'GeneFamily' ]
+allDataFrame.reindex(columns=headers)
+allDataFrame.drop(['fwdPrimer', 'revPrimer', ], axis=1)
+
+dataSummary=allDataFrame.describe(include='all')
+
+# summarize GC content by country
+print( 'Country\tMean\tDeviation' )
+for nextCountry in sorted( set( allDataFrame.Country ) ):
+   nextMean, nextSTD = allDataFrame[ allDataFrame.Country == nextCountry ].describe().ix[['mean','std'],'gcContent'] 
+   print( "%s\t%1.4f\t%1.4f" % ( nextCountry, float( nextMean ), float( nextSTD ) ) )
