@@ -14,7 +14,7 @@ These data are from Ravel, J., Brotman, R. M., Gajer, P., Ma, B., Nandy, M., Fad
 2. Read [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 2. Work through [https://docs.python.org/3.5/tutorial/errors.html](https://docs.python.org/3.5/tutorial/errors.html)
 3. Work through textbook, Chapter 5, *Getting Started with Pandas*, pages 107--132
-## Things to do before midnight, **10/20**, or sooner
+## Things to do before midnight, **10/27**, or sooner
 Write a program named *microbiome.py* that does the following (please do **not** use pandas, we will do that later):
 
 1. Read *../Resources/vaginal_communities.txt* into an appropriate data structure. 
