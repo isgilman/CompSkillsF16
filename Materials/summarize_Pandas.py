@@ -58,5 +58,8 @@ dataSummary=allDataFrame.describe(include='all')
 # summarize GC content by country
 print( 'Country\tMean\tDeviation' )
 for nextCountry in sorted( set( allDataFrame.Country ) ):
-   nextMean, nextSTD = allDataFrame[ allDataFrame.Country == nextCountry ].describe().ix[['mean','std'],'gcContent'] 
+   #same as: nextMean, nextSTD = allDataFrame[ allDataFrame.Country == nextCountry ].describe().ix[['mean','std'],'gcContent'] 
+   thisRow = allDataFrame[ allDataFrame.Country == nextCountry ]
+   theseStats = thisRow.describe()
+   nextMean, nextSTD = theseStats.ix[['mean','std'],'gcContent']
    print( "%s\t%1.4f\t%1.4f" % ( nextCountry, float( nextMean ), float( nextSTD ) ) )
