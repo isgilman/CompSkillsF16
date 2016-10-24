@@ -1,7 +1,7 @@
 latex input:	mmd-article-header  
 latex input:	ftp-metadata 
 Title:	HW7, processing microbiome data
-Date:	2016-10-27
+Date:	2016-10-24
 Base Header Level:	2  
 latex mode:	article  
 Keywords:	MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF   
@@ -29,7 +29,7 @@ Ravel, J., Brotman, R. M., Gajer, P., Ma, B., Nandy, M., Fadrosh, D. W., et al. 
 * Create summary files
 ## Readings, by 10/27
 1. Work through textbook, Chapter 5, *Getting Started with Pandas*, pages 133--143
-## Things to Do Before Midnight, **10/27**, or Sooner ##
+## Things to Do Before Midnight, **11/3**, or Sooner ##
 Write a program named *microbiome_summary.py* that uses pandas to do the following:
 
 1.  Read *../Resources/vaginal_communities.txt* into a pandas dataframe named *summaryByDay*
