@@ -1,0 +1,13 @@
+Date	Order	Name	email	
+Tues 11/29	1	Rankin, Andrew Michael	rank3288@vandals.uidaho.edu
+Tues 11/29	2	Mortimer, Sebastian Markus Ederer	mort1504@vandals.uidaho.edu
+Tues 11/29	3	Bledsoe, Jacob William	bled7522@vandals.uidaho.edu
+Thur 12/1	1	Davenport, Kimberly Mae	dave1403@vandals.uidaho.edu
+Thur 12/1	2	Gonzalez, Andres Jose	gonz8108@vandals.uidaho.edu
+Thur 12/1	3	Kohler, Bethel 	kohl5779@vandals.uidaho.edu
+Tues 12/6	1	Wixom, Alexander Quinn	wixo4352@vandals.uidaho.edu
+Tues 12/6	2	Eckwright, Mariah Jane	eckw7684@vandals.uidaho.edu
+Tues 12/6	3	Kollasch, Savannah Alicia	koll8786@vandals.uidaho.edu
+Thur 12/8	1	Rodriguez, Anna	rodr6015@vandals.uidaho.edu
+Thur 12/8	2	Nerkowski, Stacey Ann	nerk1005@vandals.uidaho.edu
+Thur 12/8	3	Clendenin, Heather Rose	clen2044@vandals.uidaho.edu
