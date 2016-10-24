@@ -36,9 +36,9 @@ Write a program named *microbiome_summary.py* that uses pandas to do the followi
 
 	a. Change all OTU counts to relative abundances (the relative abundance is the read counts--the number in columns--divided by the total count in *Total*)
 
-	b. Drop the following columns (or just don't add them): ID, time, sampleID, Day, Batch_ID, Date
+	b. Drop the following columns (or just don't add them): 'ID', 'time', 'Week', 'Day', 'Batch_ID', 'Date'. **NOTE** you will keep the column 'sampleID' and 'patientID'
 	
-3. In a different dataframe, called *summaryByWeek*, compute the average relative abundance of *each OTU for each patient for weeks 1 and 10* (that is, each patient will have two rows). This dataframe will also lack columns: *ID, time, sampleID, Day, Batch_ID, Date*
+3. In a different dataframe, called *summaryByWeek*, compute the average relative abundance of *each OTU for each patient for weeks 1 and 10* (that is, each patient will have two rows). This dataframe will lack columns: 'ID', 'time', 'Week', 'Day', 'Batch_ID', 'Date'. **NOTE** you will keep the column 'sampleID' and 'patientID'.
 
 	a. Be sure to update the Totals column to be the total reads for each of the two weeks 
 
@@ -50,13 +50,11 @@ Write a program named *microbiome_summary.py* that uses pandas to do the followi
 
 	The *Inverse Simpson Diversity Index* is $\left( \sum_{1,N} r_i^2 \right)^{-1}$ where $N$ and $r_i$ are as above.
 
-4. In a different dataframe, called *summaryByWoman*, compute the average relative abundance of *each OTU for each patient* (that is, there will be one row per patient, summarizing the data for that patient). This dataframe will also lack columns: *ID, time, sampleID, Day, Batch_ID, Date*
+4. In a different dataframe, called *summaryByWoman*, compute the average relative abundance of *each OTU for each patient* (that is, there will be one row per patient, summarizing the data for that patient). This dataframe will also lack columns: 'ID', 'time', 'Week', 'Day', 'Batch_ID', 'Date'. **NOTE** you will keep the column 'sampleID' and 'patientID'
 
-	a. Be sure to update the Totals column 
-
-	b. Add a column with the *Shannon Diversity Index* for each row
-
-	c. Add another column with the *Inverse Simpson Diversity Index* for each row
+		a. Be sure to update the Totals column 
+		b. Add a column with the *Shannon Diversity Index* for each row
+		c. Add another column with the *Inverse Simpson Diversity Index* for each row
 	
 4. Write these dataframes as tab delimited files with the same names: *summaryByDay.txt*, *summaryByWeek.txt*, and *summaryByWoman.txt*. You will use this for the next two assignments.You will use this in the next assignment.
 
