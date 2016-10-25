@@ -21,7 +21,9 @@ from pandas import Series, DataFrame
 
 # read data from input file
 try:
-   allDataFrame = pd.read_table( sys.argv[1], comment='#', usecols=[3,4,5] )
+   allDataFrame = pd.read_table( sys.argv[1], 
+      comment='#', 
+      usecols=[ 'Gene','Country','gcContent' ] )
 except OSError as err:
    print( "**ERROR** Cannot open %s, error: %s" % ( sys.argv[1], err ) )
 except:
@@ -31,10 +33,7 @@ allDataFrame['GeneFamily'] = [x[:x.find('_')] for x in allDataFrame['Gene'] ]
 allDataFrame['highGC'] = allDataFrame.gcContent > 0.4
 allDataFrame['lowGC']  = allDataFrame.gcContent < 0.4
 
-dataSummary=allDataFrame.describe(include='all')
-
-
-
+print( allDataFrame.describe(include='all') )
 
 # summarize GC content by country
 gcByCountry = DataFrame( index={x for x in allDataFrame.Country}, 
